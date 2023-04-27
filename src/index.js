@@ -1,3 +1,3 @@
-import { createPage } from "./page"
-createPage()
-console.log("goooooadaddz")
+import { createPage } from "./page";
+createPage();
+console.log("goooooadaddz");
