@@ -119,3 +119,10 @@ button.current {
   border-radius: 15px;
   padding: 15px;
 }
+
+.page {
+  display: none;
+}
+.page.current {
+  display: grid;
+}

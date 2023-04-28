@@ -1,8 +1,8 @@
-function createButton(className, textContent) {
+function createButton(id, textContent) {
   const button = document.createElement("button");
-  button.classList.add(className);
+  button.id = id;
   button.textContent = textContent;
-  if (className === "home") button.classList.add("current");
+  if (id === "home") button.classList.add("current");
   return button;
 }
 

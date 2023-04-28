@@ -20,7 +20,7 @@ function itemFactory(itemName, itemPrice) {
 
 export default function menuPage() {
   const pageContent = document.createElement("div");
-  pageContent.classList.add("menu-page", "page");
+  pageContent.classList.add("menu", "page");
 
   const items = document.createElement("div");
   items.classList.add = "items";

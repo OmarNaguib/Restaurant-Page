@@ -59,7 +59,7 @@ function createLocation() {
 
 export default function homePage() {
   const pageContent = document.createElement("div");
-  pageContent.classList.add("home-page", "page");
+  pageContent.classList.add("home", "page", "current");
 
   pageContent.appendChild(createTitle("The name of us"));
   pageContent.appendChild(createQuote());

@@ -19,7 +19,7 @@ function createPhone() {
 
 export default function contactPage() {
   const pageContent = document.createElement("div");
-  pageContent.classList.add("contact-page", "page");
+  pageContent.classList.add("contact", "page");
 
   pageContent.appendChild(createTitle("Contact us"));
   pageContent.appendChild(createPhone());
