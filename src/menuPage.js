@@ -23,7 +23,7 @@ export default function menuPage() {
   pageContent.classList.add("menu", "page");
 
   const items = document.createElement("div");
-  items.classList.add = "items";
+  items.classList.add("items");
 
   items.appendChild(itemFactory("Kofta", 25));
   items.appendChild(itemFactory("Mokh", 30));
