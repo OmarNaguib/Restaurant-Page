@@ -2,6 +2,7 @@ import mainPage from "./header";
 import homePage from "./homePage";
 import menuPage from "./menuPage";
 import contactPage from "./contactPage";
+import "./style.css";
 
 const pageContent = document.querySelector("#content");
 pageContent.appendChild(mainPage());
