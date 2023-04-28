@@ -54,7 +54,7 @@ header {
   background-size: cover;
 }
 
-.home-page {
+.page {
   width: 700px;
   background-color: var(--main-color-300);
   justify-self: center;
@@ -70,7 +70,7 @@ header {
   background-color: rgb(120, 53, 15, 0.7);
 }
 
-.home-page h1 {
+.page h1 {
   background-color: var(--main-color-400);
   padding: 15px;
   border-radius: 20px;
