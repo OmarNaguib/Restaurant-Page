@@ -1,0 +1,97 @@
+:root {
+  --main-color-900: #78350f;
+  --main-color-800: #92400e;
+  --main-color-700: #b45309;
+  --main-color-600: #d97706;
+  --main-color-500: #f59e0b;
+  --main-color-400: #fbbf24;
+  --main-color-300: #fcd34d;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+p {
+  margin: 0;
+}
+
+#content {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 50px 1fr;
+}
+
+/* Style for Header */
+header {
+  background-color: var(--main-color-500);
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.buttons {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 15px;
+}
+.buttons button {
+  border: 1px solid black;
+  border-bottom: none;
+  background-color: var(--main-color-500);
+  width: 100px;
+  height: 40px;
+  border-radius: 5px 5px 0px 0px;
+  font-size: 1.2rem;
+}
+
+/* Style for Main */
+
+.main-container {
+  display: grid;
+  background-image: url(../assets/restaurant2.jpg);
+  background-size: cover;
+}
+
+.home-page {
+  width: 700px;
+  background-color: var(--main-color-300);
+  justify-self: center;
+  margin-top: 40px;
+  padding: 0px 40px;
+  border-radius: 10px;
+
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  gap: 50px;
+
+  background-color: rgb(120, 53, 15, 0.7);
+}
+
+.home-page h1 {
+  background-color: var(--main-color-400);
+  padding: 15px;
+  border-radius: 20px;
+  border: 10px solid var(--main-color-900);
+  margin: 0;
+  margin-top: 15px;
+}
+
+.block {
+  border: 10px solid var(--main-color-900);
+  width: 400px;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: var(--main-color-400);
+
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 5px;
+}
+.title {
+  font-weight: bold;
+  font-size: 1.3em;
+}
