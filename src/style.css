@@ -44,6 +44,10 @@ header {
   height: 40px;
   border-radius: 5px 5px 0px 0px;
   font-size: 1.2rem;
+  cursor: pointer;
+}
+button.current {
+  background-color: var(--main-color-300);
 }
 
 /* Style for Main */
@@ -68,6 +72,7 @@ header {
   gap: 50px;
 
   background-color: rgb(120, 53, 15, 0.7);
+  padding-bottom: 15px;
 }
 
 .page h1 {
@@ -94,4 +99,23 @@ header {
 .title {
   font-weight: bold;
   font-size: 1.3em;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+
+  width: 200px;
+  height: 50px;
+
+  border: 7px solid var(--main-color-900);
+  background-color: var(--main-color-400);
+  border-radius: 15px;
+  padding: 15px;
 }

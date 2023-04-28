@@ -2,6 +2,7 @@ function createButton(className, textContent) {
   const button = document.createElement("button");
   button.classList.add(className);
   button.textContent = textContent;
+  if (className === "home") button.classList.add("current");
   return button;
 }
 
